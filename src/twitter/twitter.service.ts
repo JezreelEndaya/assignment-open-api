@@ -9,7 +9,7 @@ export class TwitterService {
         const options = {
             url: 'https://twitter241.p.rapidapi.com/user',
             params: {
-                username: 'MrBeast'
+                username: name
             },
             headers: {
                 'x-rapidapi-key': '3ed4eea6f0mshb8e319e8a273b55p18e3c2jsn29dff1ded722',
@@ -23,5 +23,7 @@ export class TwitterService {
             console.error(error);
         }
     }
+
+    
     
 }

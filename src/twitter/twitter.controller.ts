@@ -6,8 +6,9 @@ export class TwitterController {
 
     constructor(private readonly twitterService: TwitterService){}
 
-    @Get('user/:name')
+    @Get('username/:name')
     async getUserByName(@Param('name') name: string ){
         return this.twitterService.getUserByname(name);
     }
+
 }
