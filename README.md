@@ -22,21 +22,25 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
+# 1. Fetch User Followers in Twitter
 ### Method: GET
 ### Endpoint: /twitter/userfollowers/:username
 ### Request / Response:
 <a href="" target="blank"><img src="getUserFollowers.png" width="820" alt="Nest Logo" /></a>
 
+# 2. Fetch User Following in Twitter
 ### Method: GET
 ### Endpoint: /twitter/userfollowing/:username
 ### Request / Response:
 <a href="http://nestjs.com/" target="blank"><img src="getUserFollowing.png" width="820" alt="Nest Logo" /></a>
 
+# 3. Fetch User Information in Twitter
 ### Method: GET
 ### Endpoint: /twitter/userinfo/:username
 ### Request / Response:
 <a href="http://nestjs.com/" target="blank"><img src="getUserInformation.png" width="820" alt="Nest Logo" /></a>
 
+# 4. Fetch User Timeline in Twitter
 ### Method: GET
 ### Endpoint: /twitter/usertimeline/:username  
 ### Request / Response:
