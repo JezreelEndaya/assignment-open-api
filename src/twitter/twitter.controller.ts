@@ -21,4 +21,9 @@ export class TwitterController {
         return this.twitterService.getUserFollowing(name);
     }
 
+    @Get('userfollowers/:name')
+    async getUserFollowers(@Param('name') name: string){
+        return this.twitterService.getUserFollowers(name);
+    }
+
 }
