@@ -11,4 +11,9 @@ export class TwitterController {
         return this.twitterService.getUserInfo(name);
     }
 
+    @Get('usertimeline/:name')
+    async getUserTimeline(@Param('name') name: string){
+        return this.twitterService.getUserTimeline(name);
+    }
+
 }
