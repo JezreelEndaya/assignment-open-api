@@ -23,12 +23,24 @@
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
 ### Method: GET
+### Endpoint: /twitter/userfollowers/:username
+### Request / Response:
+<a href="" target="blank"><img src="getUserFollowers.png" width="820" alt="Nest Logo" /></a>
 
 ### Method: GET
+### Endpoint: /twitter/userfollowing/:username
+### Request / Response:
+<a href="http://nestjs.com/" target="blank"><img src="getUserFollowing.png" width="820" alt="Nest Logo" /></a>
 
 ### Method: GET
+### Endpoint: /twitter/userinfo/:username
+### Request / Response:
+<a href="http://nestjs.com/" target="blank"><img src="getUserInformation.png" width="820" alt="Nest Logo" /></a>
 
 ### Method: GET
+### Endpoint: /twitter/usertimeline/:username  
+### Request / Response:
+<a href="http://nestjs.com/" target="blank"><img src="getUserTimeline.png" width="820" alt="Nest Logo" /></a>
 
 
 
